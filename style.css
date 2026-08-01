@@ -42,7 +42,7 @@ pointer-events:none;
 
 header {
 
-position:fixed;
+position:static;
 top:0;
 width:100%;
 
