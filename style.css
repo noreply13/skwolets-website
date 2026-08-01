@@ -376,6 +376,61 @@ margin-bottom:20px;
 
 }
 
+.language-select {
+
+height:100vh;
+
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+}
+
+.language-select h1 {
+
+font-size:80px;
+margin-bottom:20px;
+letter-spacing:8px;
+
+}
+
+.language-select p {
+
+margin-bottom:40px;
+font-size:22px;
+color:#aaa;
+
+}
+
+.language-select .button {
+
+display:inline-block;
+
+padding:18px 40px;
+margin:10px;
+
+background:#111;
+
+color:white;
+text-decoration:none;
+
+border:1px solid #333;
+
+transition:.3s;
+
+}
+
+.language-select .button:hover {
+
+border-color:#ff3b3b;
+transform:translateY(-3px);
+
+}
+
 
 @media(max-width:800px){
 
