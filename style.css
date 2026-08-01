@@ -342,7 +342,14 @@ color:#555;
 
 display:flex;
 justify-content:space-between;
-align-items:center;
+align-items:flex-start;
+
+}
+
+
+.bottom-info > div {
+
+flex:1;
 
 }
 
@@ -350,6 +357,13 @@ align-items:center;
 .engine {
 
 text-align:left;
+
+}
+
+
+.blog {
+
+text-align:center;
 
 }
 
@@ -380,7 +394,8 @@ font-size:50px;
 
 .cards,
 .images,
-.news {
+.news,
+.bottom-info {
 
 flex-direction:column;
 
