@@ -325,35 +325,6 @@ flex:1;
 
 }
 
-.bottom-info {
-
-display:flex;
-justify-content:space-between;
-align-items:flex-start;
-
-}
-
-
-.bottom-info > div {
-
-width:50%;
-
-}
-
-
-#engine {
-
-text-align:left;
-
-}
-
-
-#contact {
-
-text-align:right;
-
-}
-
 
 
 footer {
@@ -367,6 +338,34 @@ color:#555;
 }
 
 
+.bottom-info {
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+.engine {
+
+text-align:left;
+
+}
+
+
+.contact {
+
+text-align:right;
+
+}
+
+
+.bottom-info h2 {
+
+margin-bottom:20px;
+
+}
 
 
 @media(max-width:800px){
