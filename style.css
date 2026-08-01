@@ -325,6 +325,37 @@ flex:1;
 
 }
 
+/* ENGINE + CONTACT */
+
+.bottom-info {
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+.bottom-info div {
+
+flex:1;
+
+}
+
+
+#engine {
+
+text-align:left;
+
+}
+
+
+#contact {
+
+text-align:right;
+
+}
+
 
 
 footer {
